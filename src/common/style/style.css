@@ -1,3 +1,4 @@
+
 *{
 	box-sizing: border-box;
 }
@@ -76,43 +77,6 @@ body{
 
 
 
-.slick{
-	width: 100%;
-}
-.slick div {
-	height: 580px;
-	line-height: 600px;
-}
-
-.slick-dotted.slick-slider {
-    margin-bottom: 0;
-}
-.slick-dots {
-    position: absolute;
-    bottom: -5px;
-    display: block;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    text-align: center;
-}
-.slick-dots li {
-	padding: 5px;
-}
-.slick-dots li button {
-	width: 5px;
-  	height: 5px;
-  	padding: 0;
-	border: 1px solid #000;
-	list-style: square;
-}
-.slick-dots li.slick-active button {
-	background-color: #000;
-}
-.slick-dots li button:before {
-	content: none;
-}
 
 .booking_bar {
 	width: 100%;

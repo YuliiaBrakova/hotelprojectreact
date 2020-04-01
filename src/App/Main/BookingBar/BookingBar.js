@@ -3,7 +3,7 @@ import React from 'react'
 
 const BookingBar = () => {
     return (
-        <div class="booking_bar">
+        <div className="booking_bar">
             <form action="">
                 <input type="text" placeholder="Arrivall" className="search_option"/>
                 <input type="text" placeholder="Departure"/>
