@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom'
 
 import BookingBar from './BookingBar/BookingBar'
 import Rooms from './Rooms/Rooms'
+import Actvities from './Activities/Activities'
 
 const Main = () => {
 	return (
@@ -22,12 +23,20 @@ const Main = () => {
 						<Rooms/>
 					</div>
 				</div>
-				<div class="row">
-				<div class="col-md-12">
-						<div class="btn_hotel">
-							<a href=""><button type="submite"class="btn_hotel_list">MORE</button></a>
+				<div className="row">
+					<div className="col-md-12">
+						<div className="btn_hotel">
+							<a href=""><button type="submite"className="btn_hotel_list">MORE</button></a>
 						</div>
 					</div>
+				</div>
+				<div className="activities_list row">
+					<div className="col-md-12">
+						<a href=""><h1>Winter activities</h1></a>
+					</div>
+				</div>
+				<div className="flex_activities">
+					<Actvities/>
 				</div>
 			</div>
 		</main>
