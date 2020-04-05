@@ -15,13 +15,13 @@ class ActivitiesListItem extends Component{
         } = this.props;
 
         return (
-            <div className="flex_activities">
-                <div className="item_activities">
+            
+                <div >
                     <img src={image} alt={description} title={name} />
                     <a href=""><h3>{name}</h3></a>
                     <p>{description}</p>
                 </div>
-            </div>
+            
         )
     }
 

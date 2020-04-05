@@ -9,11 +9,11 @@ export default class SimpleSlider extends Component {
     const settings = {
         dots: true,
         autoplay:true,
-        autoplaySpeed:2300,
+        speed:2500,
         slidesToShow: 1,
         slidesToScroll: 1,
-        arrows: true,
-        className: "slick",
+        infinite: true,
+       
     };
     return (
       <div className="row">

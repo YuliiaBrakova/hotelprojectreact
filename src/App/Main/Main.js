@@ -1,10 +1,12 @@
 import React from 'react'
-import {Route} from 'react-router-dom'
 import {Link} from 'react-router-dom'
+
 
 import BookingBar from './BookingBar/BookingBar'
 import Rooms from './Rooms/Rooms'
 import Actvities from './Activities/Activities'
+// import DeluxeRooms from './DeluxeRooms/DeluxeRooms'
+import News from './News/News'
 
 const Main = () => {
 	return (
@@ -13,8 +15,8 @@ const Main = () => {
 				<div className="row">
 					<BookingBar/>
 				</div>
-				<div class="row">
-					<div class="col-md-12">
+				<div className="row">
+					<div className="col-md-12">
 						<Link to='/'><h1>AWARD WINNING Hotels</h1></Link>
 					</div>
 				</div>
@@ -35,10 +37,31 @@ const Main = () => {
 						<a href=""><h1>Winter activities</h1></a>
 					</div>
 				</div>
-				<div className="flex_activities">
+			</div>
+				<div className="flex">
 					<Actvities/>
 				</div>
-			</div>
+			<div className="container">
+				{/* <div className="row">
+					<div className="room_views row">
+						<a href=""><h1>DELUXE ROOMS WITH A BEAUTIFUL VIEW</h1></a>
+					</div>>
+				</div> */}
+				{/* <div className="flex">
+					
+					<DeluxeRooms/>
+				</div> */}
+				<div className="row">
+					<div className="col-md-12">
+						<a href=""><h1>News From Us</h1></a>
+					</div>
+				</div>
+				<div className="row">
+					<div className="col-md-12">
+						<News/>
+					</div>
+				</div>
+		</div>
 		</main>
 	)
 }

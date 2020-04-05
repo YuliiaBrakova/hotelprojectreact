@@ -1,9 +1,12 @@
-
+@font-face {
+	font-family: 'Bebas Neue',cursive;
+	src: url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap&subset=latin-ext" rel="stylesheet');
+}
 *{
 	box-sizing: border-box;
 }
 body{
-	font-family: 'Bebas Neue', cursive;
+	font-family: 'Bebas Neue',  sans-serif !important;
 	font-size: 16px;
 	color: black;
 	line-height: 16px;
@@ -187,7 +190,8 @@ justify-content: space-around;
 }
 .flex_activities {
 	display: flex;
-	    flex-wrap: nowrap;
+	flex-wrap: nowrap;
+	
 }
 .item_activities {
 	height:560px;
@@ -425,6 +429,7 @@ justify-content: space-around;
 	width: 228px;
 	flex:20%;
 	transition: flex 300ms ease;
-
+	padding: 0px;
 }
+
 }

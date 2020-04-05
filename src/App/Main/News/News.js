@@ -1,23 +1,25 @@
 import React from 'react'
-import ActivitiesListItem from './ActivitiesListItem'
-import ActivitiesData from './ActivitiesData'
+import NewsItem from './NewsItem'
+import NewsData from './NewsData'
 
 
 
-const Activities = () => {
+const News = ({
+    
+}) => {
     return (
         
-            <div className="flex_activities">
+            <div className="row">
                {
-                  ActivitiesData.map(({
+                  NewsData.map(({
                        id,
                        name,
                        description,
                        image,
                        type
                    })=>(
-                       <div className="item_activities" key={id}>
-                           <ActivitiesListItem 
+                       <div className="col-md-4" key={id}>
+                           <NewsItem 
                                 name={name}
                                 description={description}
                                 image={image}
@@ -27,8 +29,8 @@ const Activities = () => {
                        </div>
                    ))
                }
-            </div>
-        
+           
+        </div>
     )
 }
 
@@ -38,4 +40,4 @@ const Activities = () => {
 
 
 
-export default Activities
+export default News 
