@@ -1,8 +1,13 @@
 import React, {Component} from 'react'
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import "./../Slider/slider.css"
+
+import "./slick/slick.css";
+import "./slick/slick-theme.css";
+import "./slider.css"
+
+import SliderData from './SliderData'
+import SliderItem from './SliderItem'
+
 
 export default class SimpleSlider extends Component {
   render() {
@@ -16,16 +21,29 @@ export default class SimpleSlider extends Component {
        
     };
     return (
-      <div className="row">
+      
         <Slider {...settings}>
-            <div className="slick">
-                <div><img src="images/bg_1.jpg" alt=""/></div>
-                <div><img src="images/bg_2.jpg" alt=""/></div>
-                <div><img src="images/bg_3.jpg" alt=""/></div>
-                <div><img src="images/bg_2.jpg" alt=""/></div>
-	        </div>
+          {
+             SliderData.map(({
+              id,
+              name,
+              description,
+              image,
+              type
+          })=>(
+              <div className="row" key={id}>
+                  <SliderItem 
+                       name={name}
+                       description={description}
+                       image={image}
+                       id={id}
+                       type={type}
+                   />
+              </div>
+          ))
+          }
         </Slider>
-      </div>
+      
     );
   }
 }

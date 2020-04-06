@@ -1,6 +1,9 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 
+import {Route} from 'react-router-dom'
+
+
 
 import BookingBar from './BookingBar/BookingBar'
 import Rooms from './Rooms/Rooms'
@@ -17,7 +20,7 @@ const Main = () => {
 				</div>
 				<div className="row">
 					<div className="col-md-12">
-						<Link to='/'><h1>AWARD WINNING Hotels</h1></Link>
+						<Link to='/'><h1>AWARD WINNING HOTELS</h1></Link>
 					</div>
 				</div>
 				<div className="row">
@@ -61,7 +64,12 @@ const Main = () => {
 						<News/>
 					</div>
 				</div>
-		</div>
+					{/* <Route path='/aboutus' component={AboutUs} />
+					<Route path='/rooms' component={Room} />
+					<Route path='/portfolio' component={Portfolio} />
+					<Route path='/blog' component={Blog} />
+					<Route path='/contsct' component={Contsct} /> */}
+			</div>
 		</main>
 	)
 }
