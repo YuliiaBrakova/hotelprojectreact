@@ -15,7 +15,7 @@ class News extends React.Component {
 
             <div className="row">
                {
-                  NewsData.map(({
+                  NewsData.filter(item => item.id < 4).map(({
                        id,
                        name,
                        description,
@@ -36,6 +36,15 @@ class News extends React.Component {
                 })
             }
         </div>
+                <div className="main-buttons">
+                    <div className="main-button"><a href="/">&#60;</a></div>
+                    <div className="main-button button-active"><a href="/">1</a></div>
+                    <div className="main-button"><a href="/">2</a></div>
+                    <div className="main-button"><a href="/">3</a></div>
+                    <div className="main-button"><a href="/">...</a></div>
+                    <div className="main-button"><a href="/">8</a></div>
+                    <div className="main-button"><a href="/">&#62;</a></div>
+                </div>
         </div>
     )
 }

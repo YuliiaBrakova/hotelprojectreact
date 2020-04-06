@@ -16,7 +16,7 @@ class Rooms extends React.Component {
               
             <div className="row"> 
                {
-                  RoomsData.map(({
+                  RoomsData.filter(item => item.id < 7).map(({
                        id,
                        name,
                        description,

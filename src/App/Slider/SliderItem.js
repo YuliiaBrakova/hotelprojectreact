@@ -6,18 +6,14 @@ class SliderItem extends Component{
 
     render (){
         const{
-            
             name,
             description,
-
             image,
-          
         } = this.props;
 
         return (
             <div className="slick">
-                <div><img src={image} alt={description} title={name} /></div>
-               
+                <div><img src={image} alt={description} title={name} /></div>  
 	        </div>
         )
     }

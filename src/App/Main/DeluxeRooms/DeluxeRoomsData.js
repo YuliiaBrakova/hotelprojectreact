@@ -16,7 +16,7 @@ const DeluxeRooms = [
     {   
         id:3,
         name:"Middle of downtown",
-        description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        // description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
         type:"room",
         image: "/images/room(3).png"
     },

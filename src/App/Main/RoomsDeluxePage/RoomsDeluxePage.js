@@ -6,7 +6,7 @@ import RoomsData from '../Rooms/RoomsData'
 
 
 
-class RoomsDeluxeList extends React.Component {
+class RoomsDeluxePage extends React.Component {
 	render () {
 		return (
 			<div className="row">
@@ -42,4 +42,4 @@ class RoomsDeluxeList extends React.Component {
 	}
 }
 
-export default RoomsDeluxeList;
+export default RoomsDeluxePage;
