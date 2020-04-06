@@ -34,11 +34,10 @@ body{
 .row{
 	display: flex;
 	flex-wrap: wrap;
-}
-.row a{
 	text-decoration: none;
 	color: black;
 }
+
 .col-md-2{
 	width: 20%;
 }
@@ -63,10 +62,12 @@ body{
 	padding-right: 15px;
     padding-left: 15px;
 }
-.col-md-12{
+.col-md-12, .col-md-12 a{
 	width: 100%;
 	padding-right: 15px;
-    padding-left: 15px;
+	padding-left: 15px;
+	text-decoration: none;
+	color: black;
 }
 .logo_hotel {
 	padding: 15px auto;
@@ -123,6 +124,7 @@ body{
 	font-weight: bold;
 	letter-spacing: 5px;
 
+
 }
 
 .hotel_list{
@@ -160,6 +162,10 @@ body{
 	text-align: center;
 	font-size: 16px;
 	font-weight: bold;
+}
+.news_list_description a{
+	text-decoration: none;
+	color: black;
 }
 
 .hotel_list_description p, .news_list_description p{
@@ -231,11 +237,11 @@ justify-content: space-around;
 	font-size: 50px;
 	font-weight: bold;
 }
-.room_views{
+.room_views {
 	text-align: 50%;
 	width: 560px;
 	line-height: 1;
-	margin-left: 25%
+	margin-left: 25%;
 }
 .flex{
 	display: flex;

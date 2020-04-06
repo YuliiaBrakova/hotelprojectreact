@@ -10,7 +10,7 @@ const RoomsData = [
         id:2,
         name:"Great Environment",
         description:"We fill the space content. High-quality, beautiful, solid and pleasant to the touch",
-        type:"room",
+        type:"roomdeluxe",
         image: "/images/main(5).png"
     },
     {   
@@ -24,7 +24,7 @@ const RoomsData = [
         id:4,
         name:"Enjoy nightlife",
         description:"We fill the space content. High-quality, beautiful, solid and pleasant to the touch",
-        type:"room",
+        type:"roomdeluxe",
         image: "/images/main(7).png"
     },
     {   
@@ -38,7 +38,7 @@ const RoomsData = [
         id:6,
         name:"We Clean Everyday",
         description:"We fill the space content. High-quality, beautiful, solid and pleasant to the touch",
-        type:"room",
+        type:"roomdeluxe",
         image: "/images/main(9).png"
     }
     

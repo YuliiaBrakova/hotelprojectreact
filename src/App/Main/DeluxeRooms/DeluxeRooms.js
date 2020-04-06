@@ -8,7 +8,11 @@ import DeluxeRoomsData from './DeluxeRoomsData'
 class DeluxeRooms extends React.Component {
 	render () {
 		return (
+		
+		<div >
+			<a href="" className="room_views row"><h1>DELUXE ROOMS WITH A BEAUTIFUL VIEW</h1></a>
 			<div className="flex">
+				
 				<div className="sideitem">
                {
                   DeluxeRoomsData.filter(item => item.id < 3).map(({
@@ -59,7 +63,8 @@ class DeluxeRooms extends React.Component {
 				   })
                }
 			   </div>
-            </div>	
+            </div>
+			</div>	
 		)
 	}
 }

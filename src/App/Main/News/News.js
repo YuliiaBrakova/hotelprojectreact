@@ -4,11 +4,15 @@ import NewsData from './NewsData'
 
 
 
-const News = ({
-    
-}) => {
+
+class News extends React.Component {
+	render () {
     return (
-        
+            <div className="row">
+                <div className="col-md-12">
+                    <a href=""><h1>News From Us</h1></a>
+                </div>
+
             <div className="row">
                {
                   NewsData.map(({
@@ -17,7 +21,8 @@ const News = ({
                        description,
                        image,
                        type
-                   })=>(
+                   })=>{
+                    return(
                        <div className="col-md-4" key={id}>
                            <NewsItem 
                                 name={name}
@@ -27,11 +32,13 @@ const News = ({
                                 type={type}
                             />
                        </div>
-                   ))
-               }
-           
+                   )
+                })
+            }
+        </div>
         </div>
     )
+}
 }
 
 

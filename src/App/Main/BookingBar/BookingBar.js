@@ -1,7 +1,9 @@
 import React from 'react'
 
 
-const BookingBar = () => {
+
+class BookingBar extends React.Component {
+	render () { 
     return (
         <div className="row">   
             <div className="booking_bar">
@@ -17,4 +19,5 @@ const BookingBar = () => {
         </div> 
     )
 }
+    }
 export default BookingBar 

@@ -4,8 +4,12 @@ import ActivitiesData from './ActivitiesData'
 
 
 
-const Activities = () => {
+
+class Activities extends React.Component {
+	render () {
     return (
+    
+    
         
             <div className="flex">
                {
@@ -15,7 +19,8 @@ const Activities = () => {
                        description,
                        image,
                        type
-                   })=>(
+                   })=>{
+					return (
                        <div className="flex_activities" key={id}>
                            <ActivitiesListItem 
                                 name={name}
@@ -25,13 +30,14 @@ const Activities = () => {
                                 type={type}
                             />
                        </div>
-                   ))
-               }
+                 	)
+                })
+            }
             </div>
         
     )
 }
-
+}
 
 
 
