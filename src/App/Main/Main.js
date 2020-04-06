@@ -8,26 +8,20 @@ import {Route} from 'react-router-dom'
 import BookingBar from './BookingBar/BookingBar'
 import Rooms from './Rooms/Rooms'
 import Actvities from './Activities/Activities'
-// import DeluxeRooms from './DeluxeRooms/DeluxeRooms'
+import DeluxeRooms from './DeluxeRooms/DeluxeRooms'
 import News from './News/News'
 
 const Main = () => {
 	return (
 		<main className="main">
 			<div className="container">
-				<div className="row">
 					<BookingBar/>
-				</div>
 				<div className="row">
 					<div className="col-md-12">
 						<Link to='/'><h1>AWARD WINNING HOTELS</h1></Link>
 					</div>
 				</div>
-				<div className="row">
-					<div className="col-md-12">
-						<Rooms/>
-					</div>
-				</div>
+					<Rooms/>
 				<div className="row">
 					<div className="col-md-12">
 						<div className="btn_hotel">
@@ -41,29 +35,27 @@ const Main = () => {
 					</div>
 				</div>
 			</div>
-				<div className="flex">
+				
 					<Actvities/>
-				</div>
+				
 			<div className="container">
-				{/* <div className="row">
+				 <div className="row">
 					<div className="room_views row">
 						<a href=""><h1>DELUXE ROOMS WITH A BEAUTIFUL VIEW</h1></a>
 					</div>>
-				</div> */}
-				{/* <div className="flex">
+				</div> 
+			
 					
 					<DeluxeRooms/>
-				</div> */}
+			
 				<div className="row">
 					<div className="col-md-12">
 						<a href=""><h1>News From Us</h1></a>
 					</div>
 				</div>
-				<div className="row">
-					<div className="col-md-12">
+				
 						<News/>
-					</div>
-				</div>
+					
 					{/* <Route path='/aboutus' component={AboutUs} />
 					<Route path='/rooms' component={Room} />
 					<Route path='/portfolio' component={Portfolio} />

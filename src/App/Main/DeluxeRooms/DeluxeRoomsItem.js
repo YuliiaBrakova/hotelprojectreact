@@ -16,11 +16,11 @@ class DeluxeRoomsItem extends Component{
 
         return (
            
-                <div className="item">
+            <div className="item">
                 <img src={image} alt={type} title={description}/>
                 <a href=""><h4>{name}</h4></a>
                 <p className="text_room">{description}</p> 
-               </div> 
+            </div> 
                 
               
           

@@ -16,7 +16,7 @@ class ActivitiesListItem extends Component{
 
         return (
             
-                <div >
+                <div className="item_activities" >
                     <img src={image} alt={description} title={name} />
                     <a href=""><h3>{name}</h3></a>
                     <p>{description}</p>

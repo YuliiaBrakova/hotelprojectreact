@@ -7,7 +7,7 @@ import ActivitiesData from './ActivitiesData'
 const Activities = () => {
     return (
         
-            <div className="flex_activities">
+            <div className="flex">
                {
                   ActivitiesData.map(({
                        id,
@@ -16,7 +16,7 @@ const Activities = () => {
                        image,
                        type
                    })=>(
-                       <div className="item_activities" key={id}>
+                       <div className="flex_activities" key={id}>
                            <ActivitiesListItem 
                                 name={name}
                                 description={description}

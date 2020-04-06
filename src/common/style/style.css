@@ -141,7 +141,7 @@ body{
 }
 .news_list{
 	display: block;
-	margin-top: 25px;
+	margin-top: 40px;
 	justify-content: space-between;
 	border: 1px solid white;
 	color: black;
@@ -240,7 +240,7 @@ justify-content: space-around;
 .flex{
 	display: flex;
 	font-size: 400%;
-	margin: 20px;
+	margin: 30px 0px;
 
 }
 

@@ -8,7 +8,7 @@ const Rooms = ({
     
 }) => {
     return (
-        <div>
+        
             <div className="row">
                {
                   RoomsData.map(({
@@ -30,7 +30,7 @@ const Rooms = ({
                    ))
                }
             </div>
-        </div>
+       
     )
 }
 

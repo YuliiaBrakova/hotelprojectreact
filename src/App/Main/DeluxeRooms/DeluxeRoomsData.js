@@ -18,7 +18,7 @@ const DeluxeRooms = [
         name:"Middle of downtown",
         description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
         type:"room",
-        image: "/images/room(5).png"
+        image: "/images/room(3).png"
     },
     {   
         id:4,
@@ -32,7 +32,7 @@ const DeluxeRooms = [
         name:"Middle of downtown",
         description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
         type:"room",
-        image: "/images/room(3).png"
+        image: "/images/room(5).png"
     }
     
 ]

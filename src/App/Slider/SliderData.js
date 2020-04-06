@@ -18,14 +18,14 @@ const SliderData = [
         name:"Free Breakfast",
         description:"We fill the space content. High-quality, beautiful, solid and pleasant to the touch",
         type:"room",
-        image: "/images/bg_3.jpg"
+        image: "/images/bg_1.jpg"
     },
     {   
         id:4,
         name:"Enjoy nightlife",
         description:"We fill the space content. High-quality, beautiful, solid and pleasant to the touch",
         type:"room",
-        image: "/images/bg_1.jpg"
+        image: "/images/bg_3.jpg"
     }
     
 ]
