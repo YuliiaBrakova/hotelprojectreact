@@ -22,42 +22,42 @@ const NewsData = [
     },
     {   
         id:4,
-        name:"Middle of downtown",
-        description:"We fill the space content. High-quality, beautiful, solid and pleasant to the touch",
-        type:"newsab",
-        image: "/images/team_1.jpg"
-    },
-    {   
-        id:5,
-        name:"Great Environment",
+        name:"Hotel America - January 6, 2020",
         description:"We fill the space content. High-quality, beautiful, solid and pleasant to the touch",
         type:"newsab",
         image: "/images/team_2.jpg"
     },
     {   
-        id:6,
-        name:"Free Breakfast",
+        id:5,
+        name:"Hotel America - February 6, 2020",
         description:"We fill the space content. High-quality, beautiful, solid and pleasant to the touch",
         type:"newsab",
-        image: "/images/team_3.jpg"
+        image: "/images/team_1.jpg"
+    },
+    {   
+        id:6,
+        name:"Hotel America - March 6, 2020",
+        description:"We fill the space content. High-quality, beautiful, solid and pleasant to the touch",
+        type:"newsab",
+        image: "/images/team_4.jpg"
     },
     {   
         id:7,
-        name:"Middle of downtown",
+        name:"Hotel America - April 6, 2020",
         description:"We fill the space content. High-quality, beautiful, solid and pleasant to the touch",
         type:"newsab",
         image: "/images/team_4.jpg"
     },
     {   
         id:8,
-        name:"Great Environment",
+        name:"Hotel America - December 6, 2019",
         description:"We fill the space content. High-quality, beautiful, solid and pleasant to the touch",
         type:"newsab",
         image: "/images/team_2.jpg"
     },
     {   
         id:9,
-        name:"Free Breakfast",
+        name:"Hotel America - November 6, 2019",
         description:"We fill the space content. High-quality, beautiful, solid and pleasant to the touch",
         type:"newsab",
         image: "/images/team_1.jpg"

@@ -1,0 +1,101 @@
+.blog-screen {
+    margin-top: 40px;
+    margin-bottom: 79px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 560px;
+    align-content: flex-start;
+}
+.blog-screen_b {
+    width: 32%;
+    height: 48%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.blog-screen_b img {
+    border-radius: 10px;
+}
+.blog-screen_b:nth-child(1) {
+    height: 100%;
+}
+.blog-screen_b:nth-child(1) .block .author-date {
+    font-size: 14px;
+    bottom: 100px;
+}
+.blog-screen_b:nth-child(1) .block .title {
+    width: 90%;
+    font-size: 26px;
+    line-height: 30px;
+}
+.blog-screen_b:nth-child(4) img {
+    object-position: 0 -150px;
+}
+.blog-screen_b:nth-child(5) img {
+    object-fit: cover;
+    object-position: right;
+}
+.blog-screen .block {
+    border-radius: 10px;
+}
+.blog-screen {
+    margin-top: 40px;
+    margin-bottom: 79px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 560px;
+}
+.blog-screen_b {
+    width: 32%;
+    height: 48%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.blog-screen_b img {
+    border-radius: 10px;
+}
+.blog-screen_b:nth-child(1) {
+    height: 100%;
+}
+.blog-screen_b:nth-child(1) .block .author-date {
+    font-size: 14px;
+    bottom: 100px;
+}
+.blog-screen_b:nth-child(1) .block .title {
+    width: 90%;
+    font-size: 26px;
+    line-height: 30px;
+}
+.blog-screen_b:nth-child(4) img {
+    object-position: 0 -150px;
+}
+.blog-screen_b:nth-child(5) img {
+    object-fit: cover;
+    object-position: right;
+}
+.blog-screen .block {
+    border-radius: 10px;
+}
+.blog-screen .block .shadow {
+    position: absolute;
+}
+.block {
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+}
+.block img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.8s;
+}
+.block .shadow {
+    z-index: 2;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.10) 15%);
+    transition: 0.5s;
+}

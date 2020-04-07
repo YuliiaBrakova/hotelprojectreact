@@ -16,8 +16,8 @@ class NewsItem extends Component{
 
         return (
             <div className="news_list">
-                    <div className="news_list_img">
-                         <img src={image} alt={description} title={name} />
+                    <div className="news_list_img ">
+                         <img className="displayed" src={image} alt={description} title={name} />
                     </div>
                 <div className="news_list_description">
                     <a href=""><h2>{name}</h2></a>

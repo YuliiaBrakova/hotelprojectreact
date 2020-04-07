@@ -1,4 +1,5 @@
 import React from 'react';
+import {Route} from 'react-router-dom'
 
 import './../common/style/reset.css'
 import './../common/style/style.css'
@@ -14,7 +15,8 @@ const App = () => {
         <div>
           <Header				
           />
-          <Slider/>
+          <Route exact path='/' component={Slider} />
+          
           <Main
           />
           <Footer/>

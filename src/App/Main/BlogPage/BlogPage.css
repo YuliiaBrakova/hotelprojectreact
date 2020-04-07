@@ -1,0 +1,119 @@
+.blog-screen {
+    margin-top: 40px;
+    margin-bottom: 79px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 560px;
+}
+.blog-screen_b {
+    width: 32%;
+    height: 48%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.blog-screen_b img {
+    border-radius: 10px;
+}
+.blog-screen_b:nth-child(1) {
+    height: 100%;
+}
+.blog-screen_b:nth-child(1) .block .author-date {
+    font-size: 14px;
+    bottom: 100px;
+}
+.blog-screen_b:nth-child(1) .block .title {
+    width: 90%;
+    font-size: 26px;
+    line-height: 30px;
+}
+.blog-screen_b:nth-child(4) img {
+    object-position: 0 -150px;
+}
+.blog-screen_b:nth-child(5) img {
+    object-fit: cover;
+    object-position: right;
+}
+.blog-screen .block {
+    border-radius: 10px;
+}
+.blog-screen .block .category {
+    top: 30px;
+    left: 20px;
+}
+.blog-screen .block .author-date {
+    left: 20px;
+    bottom: 80px;
+}
+.blog-screen .block .title {
+    left: 20px;
+    bottom: 23px;
+    width: 70%;
+}
+.blog-screen .block .shadow {
+    width: 100%;
+    border-radius: 10px;
+    bottom: 0;
+    height: 50%;
+}
+.blog-screen .block:hover {
+    cursor: pointer;
+}
+.blog-screen .block:hover .shadow {
+    height: 100%;
+}
+.blog-screen .block:hover img {
+    transform: scale(1.5);
+}
+.blog-screen .block:hover .category {
+    transform: scale(1.3);
+    left: 30px;
+}
+.blog-screen .block:hover .title, .blog-screen .block:hover .author-date {
+    transform: translateY(-20px);
+}
+.blog-screen .block .category, .blog-screen .block .author-date, .blog-screen .block .title, .blog-screen .block .shadow {
+    position: absolute;
+}
+.block {
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+}
+.block img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.8s;
+}
+.block .category {
+    background: yellowgreen;
+    padding: 2px 12px 2px 12px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 16px;
+    border-radius: 3px;
+    z-index: 3;
+    transition: 0.8s;
+}
+.block .author-date {
+    color: #fff;
+    font-size: 12px;
+    z-index: 3;
+    transition: 0.8s;
+}
+.block .title {
+    font-weight: bold;
+    color: #fff;
+    z-index: 3;
+    font-size: 21px;
+    line-height: 25px;
+    transition: 0.8s;
+}
+.block .shadow {
+    z-index: 2;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.10) 15%);
+    transition: 0.5s;
+}

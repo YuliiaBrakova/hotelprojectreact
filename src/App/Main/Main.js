@@ -11,13 +11,14 @@ import DeluxeRooms from './DeluxeRooms/DeluxeRooms'
 import News from './News/News'
 import RoomsDeluxePage from './RoomsDeluxePage/RoomsDeluxePage'
 import AboutUsPage from './AboutUsPage/AboutUsPage'
-import Slider from './Slider/Slider'
+import PortfolioPage from './PortfolioPage/PortfolioPage'
+import BlogPage from './BlogPage/BlogPage'
+import ContactPage from './ContactPage/ContactPage'
 
 const Main = () => {
 	return (
 		<main className="main">
 			<div className="container">
-				<Route exact path='/' component={Slider} />
 				<Route exact path='/' component={BookingBar} />
 				<Route exact path='/' component={Rooms} />
 			</div>
@@ -28,10 +29,9 @@ const Main = () => {
 				<Route exact path='/' component={News} />
 				<Route path='/aboutus' component={AboutUsPage} />
 				<Route path='/rooms' component={RoomsDeluxePage} />
-				{/* <Route path='/rooms' component={Room} />
-				<Route path='/portfolio' component={Portfolio} />
-				<Route path='/blog' component={Blog} />
-				<Route path='/contsct' component={Contsct} />  */}
+				<Route path='/portfolio' component={PortfolioPage} />
+				<Route path='/blog' component={BlogPage} />
+				<Route path='/contact' component={ContactPage} />  
 			</div>
 		</main>
 	)
