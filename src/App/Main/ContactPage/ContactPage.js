@@ -13,8 +13,8 @@ class ContactPage extends React.Component {
                     <div className="form-right-decoration"></div>
                     <div className="circle"></div>
                     <div className="form-inner">
-                        <input readOnly type="text" placeholder="Username"/>
-                        <input readOnly type="email" placeholder="Email"/>
+                        <input  type="text" placeholder="Username"/>
+                        <input  type="email" placeholder="Email"/>
                         <textarea placeholder="Сообщение..." rows="3"></textarea>
                         <input readOnly type="submit" value="Отправить"/>
                     </div>

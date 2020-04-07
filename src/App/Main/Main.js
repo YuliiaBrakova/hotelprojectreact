@@ -14,6 +14,7 @@ import AboutUsPage from './AboutUsPage/AboutUsPage'
 import PortfolioPage from './PortfolioPage/PortfolioPage'
 import BlogPage from './BlogPage/BlogPage'
 import ContactPage from './ContactPage/ContactPage'
+import BackToTopButton from './BackToTopButton/BackToTopButton'
 
 const Main = () => {
 	return (
@@ -33,6 +34,7 @@ const Main = () => {
 				<Route path='/blog' component={BlogPage} />
 				<Route path='/contact' component={ContactPage} />  
 			</div>
+			<BackToTopButton/>
 		</main>
 	)
 }

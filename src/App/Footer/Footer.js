@@ -1,5 +1,5 @@
 import React from 'react'
-import { SocialIcon } from 'react-social-icons'
+import {Link} from 'react-router-dom'
 
 import Logo from './../Header/Logo/Logo'
 import facebook from './icons/fb.svg'
@@ -23,13 +23,12 @@ const Footer = () => {
 					<div className="col-md-6">
 						<div className="footer_menu">
 							<ul>
-								<li><a href="" className="footer_menu_link">HOME</a></li>
-								<li><a href="" className="footer_menu_link">ABOUT US</a></li>
-								<li><a href="" className="footer_menu_link">ROOMS</a></li>
-								<li><a href="" className="footer_menu_link">PORTFOLIO</a></li>
-								<li><a href="" className="footer_menu_link">BLOG</a></li>
-								<li><a href="" className="footer_menu_link">BLOG</a></li>
-								<li><a href="" className="footer_menu_link">CONTACT</a></li>
+								<li><Link to='/'  className="footer_menu_link">HOME</Link></li>
+								<li><Link to='/aboutus' className="footer_menu_link">ABOUT US</Link></li>
+								<li><Link to='/rooms'  className="footer_menu_link">ROOMS</Link></li>
+								<li><Link to='/portfolio' className="footer_menu_link">PORTFOLIO</Link></li>
+								<li> <Link to='/blog' className="footer_menu_link">BLOG</Link></li>
+								<li><Link to='/contact' className="footer_menu_link">CONTACT</Link></li>
 							</ul>
 						</div>
 					</div>

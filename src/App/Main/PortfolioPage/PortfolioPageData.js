@@ -39,70 +39,70 @@ const PortfolioPageData = [
         name:"Dec 6, 2019 Admin",
         description:"Even the all-powerful Pointing has no control about the blind texts",
         type:"blog",
-        image: "/images/blog_1.jpg"
+        image: "/images/blog_6.jpg"
     },
     {   
         id:7,
         name:"Dec 6, 2018 Admin",
         description:"Even the all-powerful Pointing has no control about the blind texts",
         type:"blog",
-        image: "/images/blog_2.jpg"
+        image: "/images/blog_7.jpg"
     },
     {   
         id:8,
         name:"Dec 6, 2018 Admin",
         description:"Even the all-powerful Pointing has no control about the blind texts",
         type:"blog",
-        image: "/images/blog_3.jpg"
+        image: "/images/blog_8.jpg"
     },
     {   
         id:9,
         name:"Dec 6, 2018 Admin",
         description:"Even the all-powerful Pointing has no control about the blind texts",
         type:"blog",
-        image: "/images/blog_4.jpg"
+        image: "/images/blog_2.jpg"
     },
     {   
         id:10,
         name:"Dec 6, 2018 Admin",
         description:"Even the all-powerful Pointing has no control about the blind texts",
         type:"blog",
-        image: "/images/blog_5.jpg"
+        image: "/images/blog_10.jpg"
     },
     {   
         id:11,
         name:"Dec 6, 2019 Admin",
         description:"Even the all-powerful Pointing has no control about the blind texts",
         type:"blog",
-        image: "/images/blog_1.jpg"
+        image: "/images/blog_11.jpg"
     },
     {   
         id:12,
         name:"Dec 6, 2018 Admin",
         description:"Even the all-powerful Pointing has no control about the blind texts",
         type:"blog",
-        image: "/images/blog_2.jpg"
+        image: "/images/blog_12.jpg"
     },
     {   
         id:13,
         name:"Dec 6, 2018 Admin",
         description:"Even the all-powerful Pointing has no control about the blind texts",
         type:"blog",
-        image: "/images/blog_3.jpg"
+        image: "/images/blog_13.jpg"
     },
     {   
         id:14,
         name:"Dec 6, 2018 Admin",
         description:"Even the all-powerful Pointing has no control about the blind texts",
         type:"blog",
-        image: "/images/blog_4.jpg"
+        image: "/images/blog_14.jpg"
     },
     {   
         id:15,
         name:"Dec 6, 2018 Admin",
         description:"Even the all-powerful Pointing has no control about the blind texts",
         type:"blog",
-        image: "/images/blog_5.jpg"
+        image: "/images/blog_15.jpg"
     }
     
 ]
