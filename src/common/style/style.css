@@ -21,7 +21,7 @@ body{
 	left: 0; right: 0;
 	top: 0;
 	background: #E6E6FA	;
-	z-index: 1000;
+	z-index: 3;
 }
 .main{
 	padding-top: 15px;
@@ -489,6 +489,16 @@ justify-content: space-around;
 }
 .new-button:hover a {
 	color: #fff;
+}
+
+.heart{
+	display: inline-block;
+	color:red;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	border:  1px solid #2c71b8;
+	z-index:3000;
 }
 
 
