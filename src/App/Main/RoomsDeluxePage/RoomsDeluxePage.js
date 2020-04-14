@@ -8,6 +8,8 @@ import RoomsData from '../Rooms/RoomsData'
 
 class RoomsDeluxePage extends React.Component {
 	render () {
+
+	
 		return (
 			<div className="row">
 			<div className="col-md-12">
