@@ -14,6 +14,7 @@ const Menu = () => {
              <Link to='/portfolio' className="nav_link">PORTFOLIO</Link>
              <Link to='/blog' className="nav_link">BLOG</Link>
              <Link to='/contact' className="nav_link">CONTACT</Link>
+             <Link to='/wishlist' className="nav_link">WISHLIST</Link>
         </div>
     )
 }

@@ -28,5 +28,12 @@ a {
     margin-top: -9px;
     margin-left: -5px;
 }
-
+@media screen and (max-width: 1140px) { 
+    .container {
+        width: 1140px;
+       
+    }
+    
+    }
+    
     

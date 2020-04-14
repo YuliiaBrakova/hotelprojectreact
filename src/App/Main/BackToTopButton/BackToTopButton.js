@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import PropTypes from 'prop-types'
 
 import ScrollBackToTop from './ScrollBackToTop'
 import ColoredContainerButton from './ColoredContainerButton'

@@ -30,7 +30,7 @@ class RoomsListItem extends Component{
             <div className="hotel_list">
                     <div className="hotel_list_img">
                          <img src={image} alt={description} title={name} />
-                          <button class="heart" onClick={this.handleClick} >
+                          <button className="heart" onClick={this.handleClick} >
                           {label}
                           </button>
                     </div>
